@@ -1,0 +1,116 @@
+/* ==========================================================================
+Base
+========================================================================== */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+.wrap {
+    max-width: 1200px;
+    margin: auto;
+}
+
+a {
+    color: #6b4991;
+    transition: .1s linear all;
+}
+
+a:hover, a:focus {
+    color: #d78a45;
+    transition: .1s linear all;
+}
+
+/* =============================================================================
+   Header
+   ========================================================================== */
+
+header {
+    height: 50px;
+    -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+#navbar {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+    height: 100%;
+    background-color: white;
+}
+
+.redes-sociais {
+    list-style: none;
+    display: inline-flex;
+    padding: 0;
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 0;
+    align-items: center;
+}
+
+nav .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menu li {
+    height: 50px;
+}
+
+nav .menu li a {
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.searchform{
+    width: 120px;
+}
+
+/* ==========================================================================
+   Content
+   ========================================================================== */
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+/* ==========================================================================
+   WordPress Generated Classes
+   See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
+   ========================================================================== */
+
+.aligncenter {
+    display: block;
+    margin: 0 auto;
+}
+
+.alignleft {
+    float: left;
+}
+
+.alignright {
+    float: right;
+}
